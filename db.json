@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "username": "Danish Ayoub",
+      "handle": "by.danish",
+      "bio": "Screaming internally",
+      "link": "https://www.threads.net/@by.danish",
+      "img": "https://thispersondoesnotexist.com/",
+      "instagram_url": "https://www.instagram.com/by.danish/",
+      "followers": [
+        {
+          "user_uuid": "1ca2e4de-b4f5-4e01-a028-01f7f335e4b3"
+        },
+        {
+          "user_uuid": "0f6869c1-d90e-499e-aec5-adb9aca13ed1"
+        },
+        {
+          "user_uuid": "0cc77e23-d8fd-401e-9550-e14535673c36"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user_uuid": "e24b178c-9876-423f-a312-4b87d0a027b",
+      "username": "Faizan Irshad",
+      "handle": "naziaf_faizi",
+      "bio": "About to die",
+      "link": "https://www.threads.net/@naziaf_faizi",
+      "img": "https://thispersondoesnotexist.com/",
+      "instagram_url": "https://www.instagram.com/naziaf_faizi/",
+      "followers": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        },
+        {
+          "user_uuid": "38c9b21a-c021-4a43-9ba2-1a789d234e0c"
+        },
+        {
+          "user_uuid": "7f12e8a2-1e1b-4edc-9234-b521d1872a93"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user_uuid": "354e0e54-8c2e-400f-91b0-921a17ee1594",
+      "username": "Alex Jones",
+      "handle": "alex.the.coder",
+      "bio": "Building cool things with Python",
+      "link": "https://www.example.com/alex.the.coder",
+      "img": "https://thispersondoesnotexist.com/",
+      "instagram_url": "https://www.instagram.com/alex.the.coder/",
+      "followers": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "1",
+      "timestamp": "Tue Feb 27 2024 15:50:39 GMT+0500 (Pakistan Standard Time)",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": null,
+      "text": "Hello Thread 2.0",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        },
+        {
+          "user_uuid": "e24b178c-9876-423f-a312-4b87d0a027b"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "timestamp": "Tue Feb 27 2024 16:50:39 GMT+0500 (Pakistan Standard Time)",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": null,
+      "text": "Another thread",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "timestamp": "Tue Feb 27 2024 18:50:39 GMT+0500 (Pakistan Standard Time)",
+      "threads_from": "e24b178c-9876-423f-a312-4b87d0a027b",
+      "threads_to": null,
+      "reply_to": null,
+      "text": "Thread from Faizan!",
+      "likes": []
+    },
+    {
+      "id": "4",
+      "timestamp": "Tue Feb 27 2024 20:51:39 GMT+0500 (Pakistan Standard Time)",
+      "threads_from": "e24b178c-9876-423f-a312-4b87d0a027b",
+      "threads_to": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "reply_to": 0,
+      "text": "Reply from Faizan!",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "660d",
+      "timestamp": "2024-03-18T14:26:00.384Z",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": "2",
+      "text": "jamo",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "5597",
+      "timestamp": "2024-03-18T14:26:55.871Z",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": "2",
+      "text": "another jamo",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "96ae",
+      "timestamp": "2024-03-18T18:09:06.042Z",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": "660d",
+      "text": "kako",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "7bf8",
+      "timestamp": "2024-03-18T18:09:38.893Z",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": "2",
+      "text": "kako",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    },
+    {
+      "id": "5932",
+      "timestamp": "2024-03-18T19:25:53.985Z",
+      "threads_from": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d",
+      "threads_to": null,
+      "reply_to": null,
+      "text": "I am an stand alone thread",
+      "likes": [
+        {
+          "user_uuid": "0c8e75b6-2b8d-47d1-bd57-f450e9dba51d"
+        }
+      ]
+    }
+  ]
+}
